@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="116108315">
+    <data-source source="LOCAL" name="Rails ChildrenSecurities: test" product="PostgreSQL" version="9.3.0" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC3g (build 1002)" uuid="7fe2b394-5956-41b7-a157-7287bf19acb2">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/sample_app_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfe6dfc3dfdfdfdbdfc3dfc4dfcbdfc4df92df99df9b</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails ChildrenSecurities: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="c3d7ac00-47e6-4591-8736-75b10c32ea2c">
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:sample_app_production</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfe6dfc3dfdfdfdbdfc3dfc4dfcbdfc4df92df99df9b</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails ChildrenSecurities: development" product="PostgreSQL" version="9.3.0" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC3g (build 1002)" uuid="33ff49e0-b0cb-4687-a639-d5035edf65dd">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/children_securities_development</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfe6dfc3dfdfdfdbdfc3dfc4dfcbdfc4df92df99df9b</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

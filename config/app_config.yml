@@ -1,0 +1,14 @@
+development: &default
+  site_url: 'http://localhost:3000'
+  site_title: ''
+  site_motto: ''
+  site_description: ''
+  show_certification: true
+  
+test: 
+  <<: *default
+
+production:
+  <<: *default
+  site_url: ''
+  blog_search_ping: true

@@ -1,0 +1,26 @@
+<% provide(:title, '注册') %>
+<h1>注册</h1>
+
+<div class="row">
+  <div class="span6 offset3">
+      <%= form_for @account, url: signin_path do |f| %>
+
+          <p>
+            <%= f.label :email, :caption => "Email" %>
+            <%= f.text_field :email %>
+          </p>
+          <p>
+            <%= f.label :password, :caption => "密码" %>
+            <%= f.password_field :password %>
+          </p>
+
+          <p>
+            <%= f.submit '登录', :class => 'btn btn-large btn-primary ' %>
+
+            <%= link_to "新浪微博登录", "#", :class => 'btn btn-large btn-primary pull-right' %>
+          </p>
+
+  <% end %>
+  </div>
+</div>
+
